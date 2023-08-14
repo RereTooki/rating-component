@@ -13,7 +13,7 @@ const RatingCard = () => {
   const [scoreValue, setScoreValue] = useState(0);
 
   return (
-    <div className="flex justify-center font-overpass items-center h-screen bg-very-dark-blue">
+    <div className="flex flex-col justify-center font-overpass items-center h-screen bg-very-dark-blue">
       {isVisible || (
         <div className="flex flex-col px-5 py-4 w-[296.5px] gradient text-center rounded-[22px]">
           <IconHolder />
@@ -33,6 +33,20 @@ const RatingCard = () => {
           <RatingText2 />
         </div>
       )}
+      <div className="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a
+          href="https://linkedin.com/in/rerel-oluwa-tooki-b53396253/"
+          target="_blank"
+        >
+          Rere Tooki
+        </a>
+        .
+      </div>
     </div>
   );
 };
