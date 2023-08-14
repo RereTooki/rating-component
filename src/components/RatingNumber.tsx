@@ -9,7 +9,7 @@ const RatingNumber = ({ onSelectItem }: Props) => {
     <>
       <div className="flex">
         <button
-          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee"
+          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee select-none"
           onClick={() => {
             onSelectItem(1);
           }}
@@ -17,7 +17,7 @@ const RatingNumber = ({ onSelectItem }: Props) => {
           1
         </button>
         <button
-          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee"
+          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee select-none"
           onClick={() => {
             onSelectItem(2);
           }}
@@ -25,7 +25,7 @@ const RatingNumber = ({ onSelectItem }: Props) => {
           2
         </button>
         <button
-          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee"
+          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee select-none"
           onClick={() => {
             onSelectItem(3);
           }}
@@ -33,7 +33,7 @@ const RatingNumber = ({ onSelectItem }: Props) => {
           3
         </button>
         <button
-          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee"
+          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee select-none"
           onClick={() => {
             onSelectItem(4);
           }}
@@ -41,7 +41,7 @@ const RatingNumber = ({ onSelectItem }: Props) => {
           4
         </button>
         <button
-          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee"
+          className="badge text-light-grey bg-dark-blue hover:bg-orangee hover:text-whitee hover:animate-bounce focus:bg-light-grey focus:text-whitee select-none"
           onClick={() => {
             onSelectItem(5);
           }}

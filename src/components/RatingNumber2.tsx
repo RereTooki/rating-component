@@ -6,7 +6,7 @@ interface Props {
 
 const RatingNumber2 = ({ scorevalue }: Props) => {
   return (
-    <div className="badge2 text-orangee bg-dark-blue cursor-default">
+    <div className="badge2 text-orangee bg-dark-blue cursor-default select-none">
       You selected {scorevalue} out of 5
     </div>
   );
