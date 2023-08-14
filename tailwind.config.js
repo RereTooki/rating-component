@@ -22,6 +22,7 @@ export default {
     },
     
     extend: {
+      
       fontFamily: {
         overpass: ['Overpass']
       },
