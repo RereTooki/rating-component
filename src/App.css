@@ -26,6 +26,18 @@
 	  cursor: pointer;
 	  
 	}
+	.badge2 {
+		
+		border-radius: 12px;
+		padding-top: 3px;
+		padding-left: 15px;
+		padding-right: 15px;
+		white-space: nowrap;		
+		margin-bottom: 20px;
+		margin-top: 20px;
+		cursor: pointer;
+		
+	  }
 	/* ... */
 	.gradient {
 		background: rgb(18, 20, 23);
