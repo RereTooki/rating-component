@@ -24,7 +24,7 @@ const RatingCard = () => {
               let scorevalue = key;
               let scoreValuse = key;
               console.log("score value is " + scorevalue);
-              setScoreValuse(scorevalue);
+              setScoreValuse(key);
               console.log("score valuse is " + scoreValuse);
             }}
           />
