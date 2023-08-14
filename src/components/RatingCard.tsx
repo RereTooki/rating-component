@@ -17,7 +17,11 @@ const RatingCard = () => {
         <div className="flex flex-col px-5 py-4 w-[296.5px] gradient text-center rounded-[22px]">
           <IconHolder />
           <RatingText />
-          <RatingNumber />
+          <RatingNumber
+            onSelectItem={(key: string) => {
+              console.log(key);
+            }}
+          />
           <Button onClick={() => setIsVisible(true)} />
         </div>
       )}
