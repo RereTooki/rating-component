@@ -1,15 +1,19 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import RatingCard from "./components/RatingCard";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <h1 className="text-3xl font-bold text-red-500 underline text-center">
-      Hello world!
-    </h1>
+    <>
+      <div>
+        <RatingCard />
+      </div>
+    </>
   );
 }
 
 export default App;
+5;
